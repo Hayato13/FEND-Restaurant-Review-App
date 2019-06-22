@@ -20,8 +20,8 @@
       <h1 id="innerHeader-words" tabindex = -1> <a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/" aria-label = "navigate home" tabindex = 1 autofocus>Home</a></li>
+    <ul id="breadcrumb" aria-label="breadcrumb" role="navigation">
+      <li><a href="/" tabindex = 1 autofocus>Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -32,12 +32,12 @@
   <main id="maincontent1">
     <!-- Beginning map -->
     <section id="map-container" tabindex = -1>
-      <div id="map"></div>
+      <div id="map" aria-label="location" role="application"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
-      <h1 id="restaurant-name" tabindex = 2></h1>
+      <h2 id="restaurant-name" tabindex = 2></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine" tabindex = 2></p>
       <p id="restaurant-address" tabindex = 2></p>
